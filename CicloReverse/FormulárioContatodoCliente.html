@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <title>Formulário CicloReverse</title>
+    <link rel="stylesheet" type="text/css" href="FormularioCiclo.css">
+  </head>
+  <body>
+    <header>  
+      <!--banner da empresa inserida com tag img-->
+      <picture>
+        <source media="(max-width:800px)" srcset="C:\Users\Emilia Lima\Documents\SoulCodeAcademy\Projeto em HTML\Referencias\banner.jpg">
+      
+      <img
+        src="C:\Users\Emilia Lima\Documents\SoulCodeAcademy\Projeto em HTML\Referencias\banner.jpg"
+        alt="logomarca"
+        title="logo cicloreverse" id="banner"
+    />
+  </picture>
+    <br />    
+  </header>
+    <br /> <br />
+    <nav>
+    <!--hyperlink que leva o usuário à página principal-->
+    <a href="CicloReverse.html">Página Inicial</a>
+  </nav>
+  <section id="cadastro">
+    <h2 id="cliente">Cliente CicloReverse</h2>
+
+    <div id="formcenter">
+    <form>
+
+      <fieldset> 
+
+        <legend id="novosusuarios"><b>Cadastro Novos Usuários</b></legend>
+
+      <p>
+        <label for="Nome">Nome/Nome Social:</label>
+        <input
+          type="text"
+          id="Nome"
+          placeholder="como podemos te chamar?"
+        />
+      </p>
+
+      <label for="dataNascimento">Data de Nascimento</label>
+
+          <input
+            type="date"
+            id="dataNascimento"
+            name="dataNascimento"
+            placeholder="informe sua data de nascimento"
+          />
+      </p>
+
+      <p>
+        <label for="idade">Empresa:</label><input type="text" id="empresa" placeholder="nome da empresa">
+      </p>
+
+    </fieldset>
+
+        <br>
+
+        <fieldset> 
+
+          <legend>Seu eletro:</legend>
+          <p>Para um melhor direcionamento:</p>
+            <label for="cidade"> Reside na capital? </label><br />
+            <input type="radio" name="capital" value="0" />
+            Sim
+            <br />
+
+            <input type="radio" name="capital" value="1" />Não
+        </p>
+
+<!-- input com checkbox para seleção de ítens a serem recolhidos pela empresa-->
+
+          <p>Qual eletro você quer que descartemos?</p>
+          <input type="checkbox" name="opções" />Cabos
+          <input type="checkbox" name="opções" />Celulares/Tablets/Notebooks
+          <input type="checkbox" name="opções" />Microondas
+          <input type="checkbox" name="opções" />Aspirador de pó  
+          <br><br>
+
+          <label for="região metropolitana">Informe sua zona metropolitana</label>
+
+<!-- select option para seleção da zona metropolitana-->
+          <select>        
+            <option value="selecione seu estado">Selecione</option>
+            <option value="Norte">Norte</option>
+            <option value="Sul">Sul</option>
+            <option value="Leste">Leste</option>
+            <option value="Oeste">Oeste</option>
+          </select>        
+          </p>
+          
+        </fieldset>
+        <br>
+
+        <fieldset>
+          <legend>Contato</legend>
+        <p>
+          <label for="e-mail"> E-mail: </label>
+          <input
+            type="text"
+            id="e-mail" name="e-mail"
+            placeholder="Digite seu e-mail"/>
+        </p>
+
+        <p>
+          <label for="Senha"> Senha: </label>
+          <input
+            type="password"
+            id="Senha"
+            placeholder="Digite aqui o sua senha"
+          />
+        </p>
+
+        <p>
+          <label for="mensagem"> Algo mais que podemos te ajudar? </label>
+          
+          <textarea
+            id="mensagem"
+            placeholder="Deixe aqui sua mensagem"
+          ></textarea>
+        </p>
+
+          </fieldset>
+<!-- botões para envio ou limpeza das seleções do formulário-->
+        <p>
+          <button type="reset">Limpar</button>
+          <button type="submit">Finalizar</button>
+      </p>        
+    </form>
+  </div>
+  </section>
+
+  <footer>
+    <address>
+      CicloReverse <br />
+      www.cicloreverse.com.br <br />
+      (81) 98688-0958 <br />
+      Rua Marquês de Valença, 200 51021-500 Boa Viagem, Recife, PE
+    </address>
+  </footer>  
+  </body>
+</html>

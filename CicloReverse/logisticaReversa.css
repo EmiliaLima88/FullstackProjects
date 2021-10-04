@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 800px) and (orientation: landscape) {
+  p {
+    font-size: 20px;
+    color: rgb(105, 94, 66);
+  }
+}
+
+body {
+  background-color: #3b5555;
+}
+
+header {
+  display: flex;
+  background-color: #6a7e7e;
+}
+
+#banner {
+  width: 100%;
+  height: 450px;
+}
+
+/*tag que armazena os itens do menu*/
+nav {
+  background-color: rgb(156, 197, 199);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #473d35;
+  font: large;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+/* propriedade do elemento quando carregado, ao passar o mouse em cima, mudará de cor */
+a:hover {
+  color: azure;
+}
+/* compreende o h1 e os p's */
+article {
+  width: 100%;
+  grid-area: article;
+  background-color: rgb(85, 46, 18);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#consumidor {
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 5px 10px 20px 30px;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 5px 10px 20px 30px;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: large;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+section {
+  display: grid;
+  background-color: #c75821;
+  width: 100%;
+  grid-area: row;
+  margin-top: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* id para editar parâmetros da lista */
+.agrotoxicos {
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* id para editar parâmetros do titulo h1 */
+#titulo {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+#paragrafo {
+  font-family: Roboto, sans-serif;
+  text-align: justify;
+  padding: 10px 10px 10px 10px;
+}
+
+/* id para editar imagem de logistica */
+#logistica {
+  width: 450px;
+  height: 300px;
+  margin: 20px;
+  border: rgb(93, 92, 92) solid 2px;
+  float: right;
+}
+/* id para modificar a imagem do ciclo de logistica */
+#ciclo {
+  width: 350px;
+  height: 320px;
+  margin: 20px;
+  float: none;
+}
+
+/* id para modificar o video
+#video { */
+#video {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  border: rgb(93, 92, 92) solid 2px;
+}
+
+aside {
+  background-color: #e2c4b4;
+  width: 100%;
+  grid-area: aside;
+  padding: 20px;
+  box-sizing: border-box;
+}
+/* id para modificar botão de volta */
+#cliqueabaixo {
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 5px 10px 20px 30px;
+}
+
+footer {
+  background-color: darkgray;
+  grid-row: auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
